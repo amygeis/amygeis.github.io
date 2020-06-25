@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: grid;
     grid-template-rows: 80px 1fr 80px;
     grid-template-columns: 250px 1fr;
@@ -10,6 +10,7 @@ body {
 header {
     grid-row: 1;
     grid-column: 1 / span 2;
+    text-align: center;
 }
 
 footer {
@@ -37,4 +38,8 @@ pics{
 
 .social {
     height:30px;
+}
+
+h1 {
+    background-color: red;
 }
